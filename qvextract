@@ -6,12 +6,11 @@
         qvextract <quiver_file>
 """
 
-import sys
+import argparse
 import os
+import sys
 
 from quiver import Quiver
-
-import argparse
 
 # Parse the command-line arguments
 parser = argparse.ArgumentParser(description="Extract PDB files from a Quiver file")

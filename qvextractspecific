@@ -6,13 +6,12 @@
         qvextract <quiver_file> <tag1> <tag2> ...
 """
 
-import sys
 import os
-
-from quiver import Quiver
-
 # Thanks to bcov for this code
 import stat
+import sys
+
+from quiver import Quiver
 
 quiver_file = sys.argv[1]
 

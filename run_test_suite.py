@@ -8,13 +8,13 @@
 
 """
 
-import sys
-import os
-import math
-import uuid
-import pandas as pd
-
 import glob
+import math
+import os
+import sys
+import uuid
+
+import pandas as pd
 
 from quiver import Quiver
 

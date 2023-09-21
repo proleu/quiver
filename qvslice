@@ -7,15 +7,13 @@
         qvslice big.qv <tag1> <tag2> ... <tagN> > smaller.qv
 """
 
-import sys
-import os
-
-from quiver import Quiver
-
 import argparse
-
+import os
 # Thanks to bcov for this code
 import stat
+import sys
+
+from quiver import Quiver
 
 quiver_file = sys.argv[1]
 

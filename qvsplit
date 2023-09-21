@@ -7,12 +7,11 @@
         qvslice big.qv <tag1> <tag2> ... <tagN> > smaller.qv
 """
 
-import sys
+import argparse
 import os
+import sys
 
 from quiver import Quiver
-
-import argparse
 
 # def split(self, ntags: int, outdir: str, prefix: str):
 

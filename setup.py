@@ -1,5 +1,6 @@
 import os
-from setuptools import setup, find_packages
+
+from setuptools import find_packages, setup
 
 executables = [
     f for f in os.listdir(".") if os.path.isfile(f) and os.access(f, os.X_OK)

@@ -9,10 +9,11 @@
 import sys
 
 sys.path.append("../../")
-from quiver import Quiver
-import os
 import glob
+import os
 import random
+
+from quiver import Quiver
 
 # Make a quiver file
 qv = Quiver("test.qv", "w")
